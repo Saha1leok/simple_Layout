@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Table and Form Example</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <!-- Heading for table -->
+  <h1 id="page-title">Student Grades</h1>
+
+  <!-- Student Grades Table -->
+  <table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Subject</th>
+      <th>Grade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Aliya</td>
+      <td>Math</td>
+      <td>A</td>
+    </tr>
+    <tr class="highlight-row">
+      <td>Bekzat</td>
+      <td>History</td>
+      <td>B+</td>
+    </tr>
+    <tr>
+      <td>Aidana</td>
+      <td>Biology</td>
+      <td>A-</td>
+    </tr>
+    <tr>
+      <td>Dias</td>
+      <td>Physics</td>
+      <td>B</td>
+    </tr>
+  </tbody>
+</table>
+    <br>
+  <!-- Feedback Form -->
+  <h2>Feedback Form</h2>
+  <form id="feedback-form">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="role">Role:</label><br>
+    <select id="role" name="role">
+      <option value="student">Student</option>
+      <option value="teacher">Teacher</option>
+      <option value="other">Other</option>
+    </select><br><br>
+
+    <div class="radio-group">
+        <label>
+            <input type="radio" name="answer" value="yes"> Yes
+        </label>
+        <label>
+            <input type="radio" name="answer" value="no"> No
+        </label>
+    </div>
+
+
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="40"></textarea><br><br>
+
+    <button type="submit" class="btn">Submit</button>
+  </form>
+  <a href="index2.html" class="pre">Previous</a>
+
+</body>
+</html>

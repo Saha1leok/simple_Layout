@@ -70,18 +70,6 @@ tbody tr:nth-child(odd) {
   border-radius: 5px;
   box-sizing: border-box;
 }
-.radio-group {
-  display: flex;         /* в линию */
-  gap: 20px;             /* расстояние между Yes и No */
-  margin-bottom: 15px;
-}
-
-.radio-group label {
-  display: flex;
-  align-items: center;   /* выравнивание кружка и текста */
-  gap: 5px;              /* отступ между кружком и словом */
-  font-weight: bold;
-}
 
 
 /* Submit button */

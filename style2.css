@@ -71,16 +71,13 @@ tbody tr:nth-child(odd) {
   box-sizing: border-box;
 }
 .radio-group label {
-  display: flex;             /* выравниваем input и текст по горизонтали */
-  align-items: left;       /* по центру по вертикали */
-  gap: 8px;                  /* расстояние между кружком и текстом */
-  margin-bottom: 8px;        /* отступ между Yes и No */
-  font-weight: normal;       /* убираем жирность */
+  display: inline-flex;   /* размещаем радио и текст в линию */
+  align-items: center;    /* вертикальное выравнивание */
+  margin-right: 15px;     /* отступ между Yes и No */
 }
 
-
 .radio-group input[type="radio"] {
-  margin-right: 5px; /* расстояние между кружочком и текстом */
+  margin-right: 5px;      /* расстояние между кружочком и текстом */
 }
 
 /* Submit button */

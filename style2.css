@@ -80,7 +80,8 @@ tbody tr:nth-child(odd) {
 
 
 .radio-group input[type="radio"] {
-  margin-right: 5px;      /* расстояние между кружочком и текстом */
+  margin-right: 5px; 
+  align-items: center; /* расстояние между кружочком и текстом */
 }
 
 /* Submit button */

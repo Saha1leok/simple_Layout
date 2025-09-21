@@ -72,7 +72,7 @@ tbody tr:nth-child(odd) {
 }
 .radio-group label {
   display: flex;             /* выравниваем input и текст по горизонтали */
-  align-items: center;       /* по центру по вертикали */
+  align-items: left;       /* по центру по вертикали */
   gap: 8px;                  /* расстояние между кружком и текстом */
   margin-bottom: 8px;        /* отступ между Yes и No */
   font-weight: normal;       /* убираем жирность */
@@ -80,7 +80,7 @@ tbody tr:nth-child(odd) {
 
 
 .radio-group input[type="radio"] {
-  margin-right: 1px; /* расстояние между кружочком и текстом */
+  margin-right: 5px; /* расстояние между кружочком и текстом */
 }
 
 /* Submit button */
